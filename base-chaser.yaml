@@ -1,0 +1,102 @@
+aliases:
+  tag: &tagBase
+    os: "linux"
+    architecture: "amd64"
+
+images:
+  - template:
+      src: Dockerfile.tpl
+      dest: Dockerfile
+    command: |
+      git checkout -b branch-{{.Tag}}
+      git add {{.TemplateDestination}}
+      git commit -m "update to {{.Tag}}"
+      git push origin :{{.Tag}}
+      git tag {{.Tag}}
+      git push origin {{.Tag}}
+      git checkout master
+    base:
+      provider: dockerhub
+      image: library/php
+      tags:
+        - <<: *tagBase
+          pattern: "^7.4.[0-9]+\\-cli\\-buster$"
+          version: ^7.4.0
+        - <<: *tagBase
+          pattern: "^7.4\\-cli\\-buster$"
+          version: 7.4
+        - <<: *tagBase
+          pattern: "^7.3.[0-9]+\\-cli\\-buster$"
+          version: ^7.3.0
+        - <<: *tagBase
+          pattern: "^7.3\\-cli\\-buster$"
+          version: 7.3
+        - <<: *tagBase
+          pattern: "^7.2.[0-9]+\\-cli\\-buster$"
+          version: ^7.2.0
+        - <<: *tagBase
+          pattern: "^7.2\\-cli\\-buster$"
+          version: 7.2
+        - <<: *tagBase
+          pattern: "^7.1.[0-9]+\\-cli\\-buster$"
+          version: ^7.1.0
+        - <<: *tagBase
+          pattern: "^7.1\\-cli\\-buster$"
+          version: 7.1
+        - <<: *tagBase
+          pattern: "^7\\-cli\\-buster$"
+          version: 7
+        - <<: *tagBase
+          pattern: "^7.4.[0-9]+\\-fpm\\-buster$"
+          version: ^7.4.0
+        - <<: *tagBase
+          pattern: "^7.4\\-fpm\\-buster$"
+          version: 7.4
+        - <<: *tagBase
+          pattern: "^7.3.[0-9]+\\-fpm\\-buster$"
+          version: ^7.3.0
+        - <<: *tagBase
+          pattern: "^7.3\\-fpm\\-buster$"
+          version: 7.3
+        - <<: *tagBase
+          pattern: "^7.2.[0-9]+\\-fpm\\-buster$"
+          version: ^7.2.0
+        - <<: *tagBase
+          pattern: "^7.2\\-fpm\\-buster$"
+          version: 7.2
+        - <<: *tagBase
+          pattern: "^7.1.[0-9]+\\-fpm\\-buster$"
+          version: ^7.1.0
+        - <<: *tagBase
+          pattern: "^7.1\\-fpm\\-buster$"
+          version: 7.1
+        - <<: *tagBase
+          pattern: "^7\\-fpm\\-buster$"
+          version: 7
+        - <<: *tagBase
+          pattern: "^7.4.[0-9]+\\-apache\\-buster$"
+          version: ^7.4.0
+        - <<: *tagBase
+          pattern: "^7.4\\-apache\\-buster$"
+          version: 7.4
+        - <<: *tagBase
+          pattern: "^7.3.[0-9]+\\-apache\\-buster$"
+          version: ^7.3.0
+        - <<: *tagBase
+          pattern: "^7.3\\-apache\\-buster$"
+          version: 7.3
+        - <<: *tagBase
+          pattern: "^7.2.[0-9]+\\-apache\\-buster$"
+          version: ^7.2.0
+        - <<: *tagBase
+          pattern: "^7.2\\-apache\\-buster$"
+          version: 7.2
+        - <<: *tagBase
+          pattern: "^7.1.[0-9]+\\-apache\\-buster$"
+          version: ^7.1.0
+        - <<: *tagBase
+          pattern: "^7.1\\-apache\\-buster$"
+          version: 7.1
+        - <<: *tagBase
+          pattern: "^7\\-apache\\-buster$"
+          version: 7

@@ -1,0 +1,47 @@
+name: Auto update base image
+#on: push
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  docker-base-chase:
+    name: docker-base-chase
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v2
+
+      - name: Fetch unshallow
+        run: git fetch --prune --unshallow
+
+      - name: Install docker-base-chase command
+        run: |
+          curl -OL https://github.com/shin1x1/docker-base-chaser/releases/download/v0.0.6/docker-base-chaser-linux.zip
+          unzip docker-base-chaser-linux.zip
+
+      - name: Execute docker-base-chaser
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git remote set-url origin https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}.git
+          ./docker-base-chaser
+
+      - name: Push the updated lock file
+        run: |
+          is_push=
+          if [ -n "$(git ls-files | grep base-chaser.lock)" ]; then
+            if [ -n "$(git diff base-chaser.lock)" ]; then
+              is_push=1
+            fi
+          else
+            is_push=2
+          fi
+
+          echo ${is_push}
+
+          if [ -n "${is_push}" ]; then
+            git add base-chaser.lock
+            git commit -m "update base-chaser.lock by GitHub Action"
+            git push origin master
+          fi
