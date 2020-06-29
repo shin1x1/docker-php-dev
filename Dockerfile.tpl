@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
       libjpeg-dev \
     && rm -r /var/lib/apt/lists/* \
     && docker-php-ext-configure \
-{{- if or (matchVersion "^7.4" .Tag) (eq "7" .Version)  }}
+{{- if or (or (matchVersion "^7.4" .Tag) (matchVersion "^8" .Tag)) (eq "7" .Version)  }}
       gd --with-jpeg \
 {{- else }}
       gd --with-jpeg-dir=/usr/include \
@@ -21,6 +21,10 @@ RUN apt-get update && apt-get install -y \
       opcache \
       exif \
       gd \
+{{- if matchVersion "^8" .Tag }}
+      zip
+{{- else }}
       zip \
     && pecl install xdebug redis \
     && docker-php-ext-enable xdebug redis
+{{- end }}

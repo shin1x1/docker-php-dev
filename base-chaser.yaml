@@ -100,3 +100,12 @@ images:
         - <<: *tagBase
           pattern: "^7\\-apache\\-buster$"
           version: 7
+        - <<: *tagBase
+          pattern: "^8.0\\-rc\\-fpm$"
+          version: 8.0-rc
+        - <<: *tagBase
+          pattern: "^8.0\\-rc\\-apache$"
+          version: 8.0-rc
+        - <<: *tagBase
+          pattern: "^8.0\\-rc\\-cli$"
+          version: 8.0-rc
