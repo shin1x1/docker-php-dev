@@ -177,3 +177,21 @@ images:
       os: linux
       architecture: amd64
       last_updated_at: 2020-06-11T22:52:52.519852Z
+    - pattern: ^8.0\-rc\-apache$
+      version: 8.0-rc
+      resolved: 8.0-rc-apache
+      os: linux
+      architecture: amd64
+      last_updated_at: 2020-06-16T21:14:00.031218Z
+    - pattern: ^8.0\-rc\-fpm$
+      version: 8.0-rc
+      resolved: 8.0-rc-fpm
+      os: linux
+      architecture: amd64
+      last_updated_at: 2020-06-16T21:15:48.244305Z
+    - pattern: ^8.0\-rc\-cli$
+      version: 8.0-rc
+      resolved: 8.0-rc-cli
+      os: linux
+      architecture: amd64
+      last_updated_at: 2020-06-16T22:04:15.438668Z
