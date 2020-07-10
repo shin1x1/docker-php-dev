@@ -20,6 +20,7 @@ https://hub.docker.com/r/shin1x1/php-dev
 * 7.3.x
 * 7.4
 * 7.4.x
+* 8.0-rc
 
 ## Enabled extensions
 
