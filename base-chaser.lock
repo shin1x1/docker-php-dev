@@ -1,4 +1,4 @@
-last_updated_at: 2020-07-10T00:13:28.239507936Z
+last_updated_at: 2020-07-11T00:14:45.761256753Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -17,40 +17,40 @@ images:
     tags:
     - pattern: ^7.4.[0-9]+\-cli\-buster$
       version: ^7.4.0
-      resolved: 7.4.7-cli-buster
+      resolved: 7.4.8-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-12T01:56:11.245088Z
+      last_updated_at: 2020-07-10T05:54:33.566854Z
     - pattern: ^7.4\-cli\-buster$
       version: "7.4"
       resolved: 7.4-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-10T00:05:37.843155Z
+      last_updated_at: 2020-07-10T05:52:35.847278Z
     - pattern: ^7.3.[0-9]+\-cli\-buster$
       version: ^7.3.0
-      resolved: 7.3.19-cli-buster
+      resolved: 7.3.20-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-11T23:09:10.45499Z
+      last_updated_at: 2020-07-10T05:50:20.533213Z
     - pattern: ^7.3\-cli\-buster$
       version: "7.3"
       resolved: 7.3-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-09T23:59:26.311573Z
+      last_updated_at: 2020-07-10T05:46:05.594535Z
     - pattern: ^7.2.[0-9]+\-cli\-buster$
       version: ^7.2.0
-      resolved: 7.2.31-cli-buster
+      resolved: 7.2.32-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-09T16:23:38.517289Z
+      last_updated_at: 2020-07-10T05:42:39.022654Z
     - pattern: ^7.2\-cli\-buster$
       version: "7.2"
       resolved: 7.2-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-09T16:20:44.435604Z
+      last_updated_at: 2020-07-10T05:38:19.066667Z
     - pattern: ^7.1.[0-9]+\-cli\-buster$
       version: ^7.1.0
       resolved: 7.1.33-cli-buster
@@ -68,43 +68,43 @@ images:
       resolved: 7-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-12T01:51:51.536578Z
+      last_updated_at: 2020-07-10T05:33:57.392955Z
     - pattern: ^7.4.[0-9]+\-fpm\-buster$
       version: ^7.4.0
-      resolved: 7.4.7-fpm-buster
+      resolved: 7.4.8-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-11T23:12:54.573978Z
+      last_updated_at: 2020-07-10T05:55:01.722315Z
     - pattern: ^7.4\-fpm\-buster$
       version: "7.4"
       resolved: 7.4-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-10T00:06:16.452675Z
+      last_updated_at: 2020-07-10T05:53:03.00523Z
     - pattern: ^7.3.[0-9]+\-fpm\-buster$
       version: ^7.3.0
-      resolved: 7.3.19-fpm-buster
+      resolved: 7.3.20-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-11T23:09:41.757612Z
+      last_updated_at: 2020-07-10T05:50:53.485207Z
     - pattern: ^7.3\-fpm\-buster$
       version: "7.3"
       resolved: 7.3-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-10T00:00:43.676458Z
+      last_updated_at: 2020-07-10T05:47:26.984286Z
     - pattern: ^7.2.[0-9]+\-fpm\-buster$
       version: ^7.2.0
-      resolved: 7.2.31-fpm-buster
+      resolved: 7.2.32-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-09T16:23:57.172644Z
+      last_updated_at: 2020-07-10T05:43:11.885171Z
     - pattern: ^7.2\-fpm\-buster$
       version: "7.2"
       resolved: 7.2-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-09T16:21:33.124085Z
+      last_updated_at: 2020-07-10T05:39:47.280243Z
     - pattern: ^7.1.[0-9]+\-fpm\-buster$
       version: ^7.1.0
       resolved: 7.1.33-fpm-buster
@@ -122,43 +122,43 @@ images:
       resolved: 7-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-11T22:54:39.919516Z
+      last_updated_at: 2020-07-10T05:34:56.631418Z
     - pattern: ^7.4.[0-9]+\-apache\-buster$
       version: ^7.4.0
-      resolved: 7.4.7-apache-buster
+      resolved: 7.4.8-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-11T23:12:12.515616Z
+      last_updated_at: 2020-07-10T05:53:57.464431Z
     - pattern: ^7.4\-apache\-buster$
       version: "7.4"
       resolved: 7.4-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-10T00:05:09.163006Z
+      last_updated_at: 2020-07-10T05:52:05.236832Z
     - pattern: ^7.3.[0-9]+\-apache\-buster$
       version: ^7.3.0
-      resolved: 7.3.19-apache-buster
+      resolved: 7.3.20-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-11T23:08:33.059054Z
+      last_updated_at: 2020-07-10T05:49:35.654113Z
     - pattern: ^7.3\-apache\-buster$
       version: "7.3"
       resolved: 7.3-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-09T23:58:45.717975Z
+      last_updated_at: 2020-07-10T05:45:19.641004Z
     - pattern: ^7.2.[0-9]+\-apache\-buster$
       version: ^7.2.0
-      resolved: 7.2.31-apache-buster
+      resolved: 7.2.32-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-09T16:23:15.982279Z
+      last_updated_at: 2020-07-10T05:42:03.777289Z
     - pattern: ^7.2\-apache\-buster$
       version: "7.2"
       resolved: 7.2-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-09T16:19:52.49902Z
+      last_updated_at: 2020-07-10T05:37:19.725144Z
     - pattern: ^7.1.[0-9]+\-apache\-buster$
       version: ^7.1.0
       resolved: 7.1.33-apache-buster
@@ -176,22 +176,22 @@ images:
       resolved: 7-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-06-11T22:52:52.519852Z
+      last_updated_at: 2020-07-10T05:33:24.31949Z
     - pattern: ^8.0\-rc\-apache$
       version: 8.0-rc
       resolved: 8.0-rc-apache
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-10T00:09:09.783712Z
+      last_updated_at: 2020-07-10T05:56:29.833988Z
     - pattern: ^8.0\-rc\-fpm$
       version: 8.0-rc
       resolved: 8.0-rc-fpm
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-10T00:09:57.425609Z
+      last_updated_at: 2020-07-10T05:57:20.125475Z
     - pattern: ^8.0\-rc\-cli$
       version: 8.0-rc
       resolved: 8.0-rc-cli
       os: linux
       architecture: amd64
-      last_updated_at: 2020-07-10T00:09:26.448875Z
+      last_updated_at: 2020-07-10T05:56:47.955398Z
