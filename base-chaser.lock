@@ -1,4 +1,4 @@
-last_updated_at: 2020-09-02T00:19:40.701587781Z
+last_updated_at: 2020-09-03T00:18:03.853508639Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -86,13 +86,13 @@ images:
       resolved: 7.3.21-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-09-01T07:35:13.16389Z
+      last_updated_at: 2020-09-02T02:57:11.548932Z
     - pattern: ^7.3\-fpm\-buster$
       version: "7.3"
       resolved: 7.3-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-09-01T07:31:24.202243Z
+      last_updated_at: 2020-09-02T02:56:14.660599Z
     - pattern: ^7.2.[0-9]+\-fpm\-buster$
       version: ^7.2.0
       resolved: 7.2.33-fpm-buster
