@@ -1,8 +1,8 @@
 name: Auto update base image
-#on: push
-on:
-  schedule:
-    - cron: '0 0 * * *'
+on: push
+#on:
+#  schedule:
+#    - cron: '0 0 * * *'
 
 jobs:
   docker-base-chase:
