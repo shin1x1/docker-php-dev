@@ -1,4 +1,4 @@
-last_updated_at: 2020-11-07T00:29:59.118446343Z
+last_updated_at: 2020-11-13T00:25:54.420778464Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -182,16 +182,16 @@ images:
       resolved: 8.0-rc-apache
       os: linux
       architecture: amd64
-      last_updated_at: 2020-11-06T03:07:46.123496Z
+      last_updated_at: 2020-11-12T21:08:09.670627Z
     - pattern: ^8.0\-rc\-fpm$
       version: 8.0-rc
       resolved: 8.0-rc-fpm
       os: linux
       architecture: amd64
-      last_updated_at: 2020-11-06T03:10:32.839404Z
+      last_updated_at: 2020-11-12T21:09:46.908518Z
     - pattern: ^8.0\-rc\-cli$
       version: 8.0-rc
       resolved: 8.0-rc-cli
       os: linux
       architecture: amd64
-      last_updated_at: 2020-11-06T03:08:13.871229Z
+      last_updated_at: 2020-11-12T21:08:34.051223Z
