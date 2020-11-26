@@ -20,6 +20,33 @@ images:
       image: library/php
       tags:
         - <<: *tagBase
+          pattern: "^8.0.[0-9]+\\-cli\\-buster$"
+          version: ^8.0.0
+        - <<: *tagBase
+          pattern: "^8.0+\\-cli\\-buster$"
+          version: ^8.0
+        - <<: *tagBase
+          pattern: "^8\\-cli\\-buster$"
+          version: 8
+        - <<: *tagBase
+          pattern: "^8.0.[0-9]+\\-apache\\-buster$"
+          version: ^8.0.0
+        - <<: *tagBase
+          pattern: "^8.0+\\-apache\\-buster$"
+          version: ^8.0
+        - <<: *tagBase
+          pattern: "^8\\-apache\\-buster$"
+          version: 8
+        - <<: *tagBase
+          pattern: "^8.0.[0-9]+\\-fpm\\-buster$"
+          version: ^8.0.0
+        - <<: *tagBase
+          pattern: "^8.0+\\-fpm\\-buster$"
+          version: ^8.0
+        - <<: *tagBase
+          pattern: "^8\\-fpm\\-buster$"
+          version: 8
+        - <<: *tagBase
           pattern: "^7.4.[0-9]+\\-cli\\-buster$"
           version: ^7.4.0
         - <<: *tagBase
@@ -100,12 +127,3 @@ images:
         - <<: *tagBase
           pattern: "^7\\-apache\\-buster$"
           version: 7
-        - <<: *tagBase
-          pattern: "^8.0\\-rc\\-fpm$"
-          version: 8.0-rc
-        - <<: *tagBase
-          pattern: "^8.0\\-rc\\-apache$"
-          version: 8.0-rc
-        - <<: *tagBase
-          pattern: "^8.0\\-rc\\-cli$"
-          version: 8.0-rc
