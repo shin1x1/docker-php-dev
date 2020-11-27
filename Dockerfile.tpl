@@ -24,16 +24,5 @@ RUN apt-get update && apt-get install -y \
       exif \
       gd \
       zip \
-{{- if matchVersion "^8" .Tag }}
-    # Xdebug
-    && mkdir -p /usr/src/php/ext/xdebug \
-    && curl -fsSL https://xdebug.org/files/xdebug-3.0.0beta1.tgz | tar xvz -C "/usr/src/php/ext/xdebug" --strip 1 \
-    && cd /usr/src/php/ext/xdebug \
-    && phpize \
-    && ./configure --enable-xdebug \
-    && make install \
-    && echo "zend_extension=xdebug.so" > /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
-{{- else }}
     && pecl install xdebug redis \
     && docker-php-ext-enable xdebug redis
-{{- end }}
