@@ -1,4 +1,4 @@
-last_updated_at: 2020-12-12T00:41:53.813139886Z
+last_updated_at: 2020-12-19T00:41:36.697440461Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -20,19 +20,19 @@ images:
       resolved: 8.0.0-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:58:36.615196Z
+      last_updated_at: 2020-12-18T22:42:49.789237Z
     - pattern: ^8.0+\-cli\-buster$
       version: ^8.0
       resolved: 8.0-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:56:16.642354Z
+      last_updated_at: 2020-12-18T22:41:50.399224Z
     - pattern: ^8\-cli\-buster$
       version: "8"
       resolved: 8-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:44:14.425706Z
+      last_updated_at: 2020-12-18T22:40:53.349373Z
     - pattern: ^8.0.[0-9]+\-apache\-buster$
       version: ^8.0.0
       resolved: 8.0.0-apache-buster
@@ -74,25 +74,25 @@ images:
       resolved: 7.4.13-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:41:02.047322Z
+      last_updated_at: 2020-12-18T22:39:38.532317Z
     - pattern: ^7.4\-cli\-buster$
       version: "7.4"
       resolved: 7.4-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:32:25.21631Z
+      last_updated_at: 2020-12-18T22:38:10.613514Z
     - pattern: ^7.3.[0-9]+\-cli\-buster$
       version: ^7.3.0
       resolved: 7.3.25-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:29:42.077356Z
+      last_updated_at: 2020-12-18T22:36:45.224015Z
     - pattern: ^7.3\-cli\-buster$
       version: "7.3"
       resolved: 7.3-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:25:46.520338Z
+      last_updated_at: 2020-12-18T22:35:14.867928Z
     - pattern: ^7.2.[0-9]+\-cli\-buster$
       version: ^7.2.0
       resolved: 7.2.34-cli-buster
@@ -122,7 +122,7 @@ images:
       resolved: 7-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2020-12-11T14:13:34.68969Z
+      last_updated_at: 2020-12-18T22:33:27.840711Z
     - pattern: ^7.4.[0-9]+\-fpm\-buster$
       version: ^7.4.0
       resolved: 7.4.13-fpm-buster
