@@ -1,4 +1,4 @@
-last_updated_at: 2021-01-22T01:19:26.206888449Z
+last_updated_at: 2021-02-04T00:34:25.609886508Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -128,7 +128,7 @@ images:
       resolved: 7.4.14-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-01-21T21:14:01.231305Z
+      last_updated_at: 2021-02-03T19:17:43.25071Z
     - pattern: ^7.4\-fpm\-buster$
       version: "7.4"
       resolved: 7.4-fpm-buster
@@ -230,4 +230,4 @@ images:
       resolved: 7-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-01-21T20:53:20.851503Z
+      last_updated_at: 2021-02-03T19:14:20.056343Z
