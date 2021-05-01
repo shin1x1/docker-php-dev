@@ -1,4 +1,4 @@
-last_updated_at: 2021-04-30T00:08:30.707508333Z
+last_updated_at: 2021-05-01T00:09:03.224518906Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -80,7 +80,7 @@ images:
       resolved: 7.4-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-04-10T16:31:27.689791Z
+      last_updated_at: 2021-05-01T00:07:02.313124Z
     - pattern: ^7.3.[0-9]+\-cli\-buster$
       version: ^7.3.0
       resolved: 7.3.28-cli-buster
@@ -122,7 +122,7 @@ images:
       resolved: 7-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-04-10T16:24:49.435688Z
+      last_updated_at: 2021-05-01T00:02:52.978165Z
     - pattern: ^7.4.[0-9]+\-fpm\-buster$
       version: ^7.4.0
       resolved: 7.4.16-fpm-buster
@@ -134,7 +134,7 @@ images:
       resolved: 7.4-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-04-10T16:31:42.094986Z
+      last_updated_at: 2021-05-01T00:07:22.571343Z
     - pattern: ^7.3.[0-9]+\-fpm\-buster$
       version: ^7.3.0
       resolved: 7.3.28-fpm-buster
@@ -176,7 +176,7 @@ images:
       resolved: 7-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-04-10T16:25:13.621697Z
+      last_updated_at: 2021-05-01T00:03:48.090531Z
     - pattern: ^7.4.[0-9]+\-apache\-buster$
       version: ^7.4.0
       resolved: 7.4.16-apache-buster
@@ -188,7 +188,7 @@ images:
       resolved: 7.4-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-04-10T16:31:04.77863Z
+      last_updated_at: 2021-05-01T00:06:30.978646Z
     - pattern: ^7.3.[0-9]+\-apache\-buster$
       version: ^7.3.0
       resolved: 7.3.28-apache-buster
@@ -230,4 +230,4 @@ images:
       resolved: 7-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-04-10T16:24:27.956133Z
+      last_updated_at: 2021-05-01T00:02:24.904235Z
