@@ -1,4 +1,4 @@
-last_updated_at: 2021-06-29T00:08:02.401232672Z
+last_updated_at: 2021-06-30T00:08:19.909629468Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -20,79 +20,79 @@ images:
       resolved: 8.0.7-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T22:59:29.312596Z
+      last_updated_at: 2021-06-29T01:28:43.488073Z
     - pattern: ^8.0+\-cli\-buster$
       version: ^8.0
       resolved: 8.0-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T22:57:55.561455Z
+      last_updated_at: 2021-06-29T01:26:52.963337Z
     - pattern: ^8\-cli\-buster$
       version: "8"
       resolved: 8-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T22:56:31.751018Z
+      last_updated_at: 2021-06-29T01:25:13.093821Z
     - pattern: ^8.0.[0-9]+\-apache\-buster$
       version: ^8.0.0
       resolved: 8.0.7-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T22:58:57.452817Z
+      last_updated_at: 2021-06-29T01:28:16.920376Z
     - pattern: ^8.0+\-apache\-buster$
       version: ^8.0
       resolved: 8.0-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T22:57:38.183841Z
+      last_updated_at: 2021-06-29T01:26:19.743791Z
     - pattern: ^8\-apache\-buster$
       version: "8"
       resolved: 8-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:19:34.930212Z
+      last_updated_at: 2021-06-29T01:24:42.418741Z
     - pattern: ^8.0.[0-9]+\-fpm\-buster$
       version: ^8.0.0
       resolved: 8.0.7-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T22:59:40.463388Z
+      last_updated_at: 2021-06-29T01:29:05.034626Z
     - pattern: ^8.0+\-fpm\-buster$
       version: ^8.0
       resolved: 8.0-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T22:58:21.101865Z
+      last_updated_at: 2021-06-29T01:27:41.740952Z
     - pattern: ^8\-fpm\-buster$
       version: "8"
       resolved: 8-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:20:17.7979Z
+      last_updated_at: 2021-06-29T01:25:37.113928Z
     - pattern: ^7.4.[0-9]+\-cli\-buster$
       version: ^7.4.0
       resolved: 7.4.20-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:18:29.930132Z
+      last_updated_at: 2021-06-29T02:05:58.659008Z
     - pattern: ^7.4\-cli\-buster$
       version: "7.4"
       resolved: 7.4-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:16:50.275413Z
+      last_updated_at: 2021-06-29T02:04:21.652616Z
     - pattern: ^7.3.[0-9]+\-cli\-buster$
       version: ^7.3.0
       resolved: 7.3.28-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:14:56.410655Z
+      last_updated_at: 2021-06-29T02:02:30.24084Z
     - pattern: ^7.3\-cli\-buster$
       version: "7.3"
       resolved: 7.3-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:11:16.949557Z
+      last_updated_at: 2021-06-29T01:58:58.938979Z
     - pattern: ^7.2.[0-9]+\-cli\-buster$
       version: ^7.2.0
       resolved: 7.2.34-cli-buster
@@ -122,31 +122,31 @@ images:
       resolved: 7-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:08:05.045606Z
+      last_updated_at: 2021-06-29T01:55:42.395735Z
     - pattern: ^7.4.[0-9]+\-fpm\-buster$
       version: ^7.4.0
       resolved: 7.4.20-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:18:50.496093Z
+      last_updated_at: 2021-06-29T02:06:17.03227Z
     - pattern: ^7.4\-fpm\-buster$
       version: "7.4"
       resolved: 7.4-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:17:16.070224Z
+      last_updated_at: 2021-06-29T02:04:40.236229Z
     - pattern: ^7.3.[0-9]+\-fpm\-buster$
       version: ^7.3.0
       resolved: 7.3.28-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:15:27.092273Z
+      last_updated_at: 2021-06-29T02:02:54.989161Z
     - pattern: ^7.3\-fpm\-buster$
       version: "7.3"
       resolved: 7.3-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:12:24.324422Z
+      last_updated_at: 2021-06-29T02:00:05.125661Z
     - pattern: ^7.2.[0-9]+\-fpm\-buster$
       version: ^7.2.0
       resolved: 7.2.34-fpm-buster
@@ -176,31 +176,31 @@ images:
       resolved: 7-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:08:57.852953Z
+      last_updated_at: 2021-06-29T01:56:32.345702Z
     - pattern: ^7.4.[0-9]+\-apache\-buster$
       version: ^7.4.0
       resolved: 7.4.20-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:18:04.467275Z
+      last_updated_at: 2021-06-29T02:05:32.231684Z
     - pattern: ^7.4\-apache\-buster$
       version: "7.4"
       resolved: 7.4-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:16:25.205922Z
+      last_updated_at: 2021-06-29T02:03:55.852796Z
     - pattern: ^7.3.[0-9]+\-apache\-buster$
       version: ^7.3.0
       resolved: 7.3.28-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:14:23.674513Z
+      last_updated_at: 2021-06-29T02:02:01.114774Z
     - pattern: ^7.3\-apache\-buster$
       version: "7.3"
       resolved: 7.3-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:10:39.190715Z
+      last_updated_at: 2021-06-29T01:58:20.969419Z
     - pattern: ^7.2.[0-9]+\-apache\-buster$
       version: ^7.2.0
       resolved: 7.2.34-apache-buster
@@ -230,4 +230,4 @@ images:
       resolved: 7-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-06-28T23:07:35.071838Z
+      last_updated_at: 2021-06-29T01:55:17.191419Z
