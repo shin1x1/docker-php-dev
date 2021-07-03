@@ -1,4 +1,4 @@
-last_updated_at: 2021-07-02T00:08:03.640709456Z
+last_updated_at: 2021-07-03T00:07:05.686257648Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -20,55 +20,55 @@ images:
       resolved: 8.0.8-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:51:29.99834Z
+      last_updated_at: 2021-07-02T02:01:18.700924Z
     - pattern: ^8.0+\-cli\-buster$
       version: ^8.0
       resolved: 8.0-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:50:00.85938Z
+      last_updated_at: 2021-07-02T02:00:07.718338Z
     - pattern: ^8\-cli\-buster$
       version: "8"
       resolved: 8-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:48:00.553784Z
+      last_updated_at: 2021-07-02T01:58:31.020011Z
     - pattern: ^8.0.[0-9]+\-apache\-buster$
       version: ^8.0.0
       resolved: 8.0.8-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:51:07.622142Z
+      last_updated_at: 2021-07-02T02:00:55.528189Z
     - pattern: ^8.0+\-apache\-buster$
       version: ^8.0
       resolved: 8.0-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:49:35.277119Z
+      last_updated_at: 2021-07-02T01:59:46.026061Z
     - pattern: ^8\-apache\-buster$
       version: "8"
       resolved: 8-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:47:37.151269Z
+      last_updated_at: 2021-07-02T01:58:10.992053Z
     - pattern: ^8.0.[0-9]+\-fpm\-buster$
       version: ^8.0.0
       resolved: 8.0.8-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:51:47.749657Z
+      last_updated_at: 2021-07-02T02:01:36.616379Z
     - pattern: ^8.0+\-fpm\-buster$
       version: ^8.0
       resolved: 8.0-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:50:36.644322Z
+      last_updated_at: 2021-07-02T02:00:21.549045Z
     - pattern: ^8\-fpm\-buster$
       version: "8"
       resolved: 8-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-01T23:48:43.730382Z
+      last_updated_at: 2021-07-02T01:59:07.261895Z
     - pattern: ^7.4.[0-9]+\-cli\-buster$
       version: ^7.4.0
       resolved: 7.4.21-cli-buster
