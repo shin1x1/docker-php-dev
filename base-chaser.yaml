@@ -20,6 +20,15 @@ images:
       image: library/php
       tags:
         - <<: *tagBase
+          pattern: "^8.1\\-rc\\-fpm$"
+          version: 8.1-rc
+        - <<: *tagBase
+          pattern: "^8.1\\-rc\\-apache$"
+          version: 8.1-rc
+        - <<: *tagBase
+          pattern: "^8.1\\-rc\\-cli$"
+          version: 8.1-rc
+        - <<: *tagBase
           pattern: "^8.0.[0-9]+\\-cli\\-buster$"
           version: ^8.0.0
         - <<: *tagBase
