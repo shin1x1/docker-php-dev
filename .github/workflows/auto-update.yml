@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - fix-php81rc
   schedule:
     - cron: '0 0 * * *'
 

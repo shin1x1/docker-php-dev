@@ -20,7 +20,7 @@ images:
       resolved: 8.1-rc-fpm
       os: linux
       architecture: amd64
-      last_updated_at: 2021-07-09T19:47:03.756735Z
+      last_updated_at: 2019-11-28T21:54:48.693286Z
     - pattern: ^8.1\-rc\-apache$
       version: 8.1-rc
       resolved: 8.1-rc-apache
