@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - update-docker-base-chaser-to-v0.0.9
   schedule:
     - cron: '0 0 * * *'
 
