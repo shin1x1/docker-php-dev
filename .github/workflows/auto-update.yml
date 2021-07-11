@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - update-docker-base-chaser-to-v0.0.8
   schedule:
     - cron: '0 0 * * *'
 
@@ -19,7 +20,7 @@ jobs:
 
       - name: Install docker-base-chase command
         run: |
-          curl -OL https://github.com/shin1x1/docker-base-chaser/releases/download/v0.0.7/docker-base-chaser-linux.zip
+          curl -OL https://github.com/shin1x1/docker-base-chaser/releases/download/v0.0.8/docker-base-chaser-linux.zip
           unzip docker-base-chaser-linux.zip
 
       - name: Execute docker-base-chaser
