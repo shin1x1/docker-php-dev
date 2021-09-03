@@ -1,4 +1,4 @@
-last_updated_at: 2021-08-28T00:07:21.529328773Z
+last_updated_at: 2021-09-03T00:07:12.077760716Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -20,19 +20,19 @@ images:
       resolved: 8.1-rc-fpm
       os: linux
       architecture: amd64
-      last_updated_at: 2021-08-27T08:08:16.653368Z
+      last_updated_at: 2021-09-02T22:54:12.593152Z
     - pattern: ^8.1\-rc\-apache$
       version: 8.1-rc
       resolved: 8.1-rc-apache
       os: linux
       architecture: amd64
-      last_updated_at: 2021-08-27T08:06:59.194168Z
+      last_updated_at: 2021-09-02T22:52:55.109085Z
     - pattern: ^8.1\-rc\-cli$
       version: 8.1-rc
       resolved: 8.1-rc-cli
       os: linux
       architecture: amd64
-      last_updated_at: 2021-08-27T08:07:40.02015Z
+      last_updated_at: 2021-09-02T22:53:37.522787Z
     - pattern: ^8.0.[0-9]+\-cli\-buster$
       version: ^8.0.0
       resolved: 8.0.10-cli-buster
