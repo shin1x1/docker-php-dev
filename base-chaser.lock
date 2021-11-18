@@ -1,4 +1,4 @@
-last_updated_at: 2021-11-12T00:08:39.934719729Z
+last_updated_at: 2021-11-18T00:09:11.442493347Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -20,97 +20,97 @@ images:
       resolved: 8.1-rc-fpm
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-11T23:20:38.980394Z
+      last_updated_at: 2021-11-17T22:31:37.335015Z
     - pattern: ^8.1\-rc\-apache$
       version: 8.1-rc
       resolved: 8.1-rc-apache
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-11T23:19:19.06696Z
+      last_updated_at: 2021-11-17T22:30:23.346456Z
     - pattern: ^8.1\-rc\-cli$
       version: 8.1-rc
       resolved: 8.1-rc-cli
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-11T23:20:05.362025Z
+      last_updated_at: 2021-11-17T22:31:08.865286Z
     - pattern: ^8.0.[0-9]+\-cli\-buster$
       version: ^8.0.0
       resolved: 8.0.12-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:27:16.012454Z
+      last_updated_at: 2021-11-17T22:22:42.582381Z
     - pattern: ^8.0+\-cli\-buster$
       version: ^8.0
       resolved: 8.0-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:25:22.415899Z
+      last_updated_at: 2021-11-17T22:21:21.600696Z
     - pattern: ^8\-cli\-buster$
       version: "8"
       resolved: 8-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:23:36.936168Z
+      last_updated_at: 2021-11-17T22:19:11.904944Z
     - pattern: ^8.0.[0-9]+\-apache\-buster$
       version: ^8.0.0
       resolved: 8.0.12-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:26:43.870268Z
+      last_updated_at: 2021-11-17T22:22:17.228766Z
     - pattern: ^8.0+\-apache\-buster$
       version: ^8.0
       resolved: 8.0-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:24:50.131757Z
+      last_updated_at: 2021-11-17T22:20:51.464725Z
     - pattern: ^8\-apache\-buster$
       version: "8"
       resolved: 8-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:51:25.929519Z
+      last_updated_at: 2021-11-17T22:18:33.015518Z
     - pattern: ^8.0.[0-9]+\-fpm\-buster$
       version: ^8.0.0
       resolved: 8.0.12-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:27:49.536473Z
+      last_updated_at: 2021-11-17T22:23:01.413165Z
     - pattern: ^8.0+\-fpm\-buster$
       version: ^8.0
       resolved: 8.0-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:25:49.786041Z
+      last_updated_at: 2021-11-17T22:21:40.307023Z
     - pattern: ^8\-fpm\-buster$
       version: "8"
       resolved: 8-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-21T18:52:08.630291Z
+      last_updated_at: 2021-11-17T22:19:57.018673Z
     - pattern: ^7.4.[0-9]+\-cli\-buster$
       version: ^7.4.0
       resolved: 7.4.25-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:59:26.079654Z
+      last_updated_at: 2021-11-17T22:17:03.160975Z
     - pattern: ^7.4\-cli\-buster$
       version: "7.4"
       resolved: 7.4-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:57:26.657542Z
+      last_updated_at: 2021-11-17T22:15:35.348983Z
     - pattern: ^7.3.[0-9]+\-cli\-buster$
       version: ^7.3.0
       resolved: 7.3.32-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-09T02:09:42.223524Z
+      last_updated_at: 2021-11-17T22:14:00.931052Z
     - pattern: ^7.3\-cli\-buster$
       version: "7.3"
       resolved: 7.3-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-09T02:06:04.769356Z
+      last_updated_at: 2021-11-17T22:11:35.343172Z
     - pattern: ^7.2.[0-9]+\-cli\-buster$
       version: ^7.2.0
       resolved: 7.2.34-cli-buster
@@ -140,31 +140,31 @@ images:
       resolved: 7-cli-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:53:12.108112Z
+      last_updated_at: 2021-11-17T22:08:46.3929Z
     - pattern: ^7.4.[0-9]+\-fpm\-buster$
       version: ^7.4.0
       resolved: 7.4.25-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:59:48.857621Z
+      last_updated_at: 2021-11-17T22:17:20.887327Z
     - pattern: ^7.4\-fpm\-buster$
       version: "7.4"
       resolved: 7.4-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:57:52.976652Z
+      last_updated_at: 2021-11-17T22:15:53.8927Z
     - pattern: ^7.3.[0-9]+\-fpm\-buster$
       version: ^7.3.0
       resolved: 7.3.32-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-09T02:10:16.464651Z
+      last_updated_at: 2021-11-17T22:14:21.878918Z
     - pattern: ^7.3\-fpm\-buster$
       version: "7.3"
       resolved: 7.3-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-09T02:07:19.175992Z
+      last_updated_at: 2021-11-17T22:12:17.079311Z
     - pattern: ^7.2.[0-9]+\-fpm\-buster$
       version: ^7.2.0
       resolved: 7.2.34-fpm-buster
@@ -194,31 +194,31 @@ images:
       resolved: 7-fpm-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:54:08.533188Z
+      last_updated_at: 2021-11-17T22:09:22.2463Z
     - pattern: ^7.4.[0-9]+\-apache\-buster$
       version: ^7.4.0
       resolved: 7.4.25-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:58:52.653001Z
+      last_updated_at: 2021-11-17T22:16:35.906486Z
     - pattern: ^7.4\-apache\-buster$
       version: "7.4"
       resolved: 7.4-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:56:51.40206Z
+      last_updated_at: 2021-11-17T22:15:06.496994Z
     - pattern: ^7.3.[0-9]+\-apache\-buster$
       version: ^7.3.0
       resolved: 7.3.32-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-09T02:08:50.73662Z
+      last_updated_at: 2021-11-17T22:13:31.423505Z
     - pattern: ^7.3\-apache\-buster$
       version: "7.3"
       resolved: 7.3-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-11-09T02:05:16.132553Z
+      last_updated_at: 2021-11-17T22:10:55.236709Z
     - pattern: ^7.2.[0-9]+\-apache\-buster$
       version: ^7.2.0
       resolved: 7.2.34-apache-buster
@@ -248,4 +248,4 @@ images:
       resolved: 7-apache-buster
       os: linux
       architecture: amd64
-      last_updated_at: 2021-10-22T20:52:28.678921Z
+      last_updated_at: 2021-11-17T22:08:08.504226Z
