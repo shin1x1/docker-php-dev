@@ -1,4 +1,4 @@
-last_updated_at: 2021-12-01T01:01:25.82265458Z
+last_updated_at: 2021-12-01T12:20:57.517472631Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -15,6 +15,42 @@ images:
     provider: dockerhub
     image: library/php
     tags:
+    - pattern: ^8.1.[0-9]+\-cli\-buster$
+      version: ^8.1.0
+      resolved: 8.1.0-cli-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-11-30T09:16:08.169777Z
+    - pattern: ^8.1+\-cli\-buster$
+      version: ^8.1
+      resolved: 8.1-cli-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-11-30T09:14:26.469907Z
+    - pattern: ^8.1.[0-9]+\-apache\-buster$
+      version: ^8.1.0
+      resolved: 8.1.0-apache-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-11-30T09:15:36.606239Z
+    - pattern: ^8.1+\-apache\-buster$
+      version: ^8.1
+      resolved: 8.1-apache-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-11-30T09:13:51.509948Z
+    - pattern: ^8.1.[0-9]+\-fpm\-buster$
+      version: ^8.1.0
+      resolved: 8.1.0-fpm-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-11-30T09:16:35.00007Z
+    - pattern: ^8.1+\-fpm\-buster$
+      version: ^8.1
+      resolved: 8.1-fpm-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-11-30T09:14:51.384925Z
     - pattern: ^8.0.[0-9]+\-cli\-buster$
       version: ^8.0.0
       resolved: 8.0.13-cli-buster
