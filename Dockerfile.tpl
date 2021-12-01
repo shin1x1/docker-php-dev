@@ -24,10 +24,5 @@ RUN apt-get update && apt-get install -y \
       exif \
       gd \
       zip \
-{{- if (matchVersion "^8.1" .Tag)  }}
-    && pecl install redis \
-    && docker-php-ext-enable redis
-{{- else }}
     && pecl install xdebug redis \
     && docker-php-ext-enable xdebug redis
-{{- end }}
