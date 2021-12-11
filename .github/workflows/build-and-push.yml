@@ -29,6 +29,9 @@ jobs:
         with:
           context: .
           file: Dockerfile
-          platforms: linux/amd64,linux/arm64
+          # Building on GitHub Actions is very slow, so linux/amd64 will be built on Docker Hub
+          # https://github.com/shin1x1/docker-php-dev/runs/4492246209
+          #platforms: linux/amd64,linux/arm64
+          platforms: linux/arm64
           push: true
           tags: shin1x1/php-dev:${{github.ref_name}}
