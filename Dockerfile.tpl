@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
       libjpeg-dev \
       ssh \
       rsync \
+      netcat \
     && rm -r /var/lib/apt/lists/* \
     && docker-php-ext-configure \
 {{- if or (or (matchVersion "^7.4" .Tag) (matchVersion "^8" .Tag)) (eq "7" .Version)  }}
