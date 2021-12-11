@@ -1,4 +1,4 @@
-last_updated_at: 2021-12-11T15:04:28.147711209Z
+last_updated_at: 2021-12-11T22:13:23.971009424Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -27,6 +27,12 @@ images:
       os: linux
       architecture: amd64
       last_updated_at: 2021-12-03T19:54:47.434415Z
+    - pattern: ^8.1+\-apache\-bullseye$
+      version: ^8.1
+      resolved: 8.1-apache-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-12-03T19:54:13.704727Z
     - pattern: ^8.1.[0-9]+\-apache\-buster$
       version: ^8.1.0
       resolved: 8.1.0-apache-buster
@@ -75,6 +81,12 @@ images:
       os: linux
       architecture: amd64
       last_updated_at: 2021-12-03T19:52:44.823534Z
+    - pattern: ^8.0+\-apache\-bullseye$
+      version: ^8.0
+      resolved: 8.0-apache-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2021-12-03T19:50:16.221208Z
     - pattern: ^8.0+\-apache\-buster$
       version: ^8.0
       resolved: 8.0-apache-buster
