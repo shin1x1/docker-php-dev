@@ -26,6 +26,9 @@ images:
           pattern: "^8.1+\\-cli\\-buster$"
           version: ^8.1
         - <<: *tagBase
+          pattern: "^8.1+\\-apache\\-bullseye$"
+          version: ^8.1
+        - <<: *tagBase
           pattern: "^8.1.[0-9]+\\-apache\\-buster$"
           version: ^8.1.0
         - <<: *tagBase
@@ -49,6 +52,9 @@ images:
         - <<: *tagBase
           pattern: "^8.0.[0-9]+\\-apache\\-buster$"
           version: ^8.0.0
+        - <<: *tagBase
+          pattern: "^8.0+\\-apache\\-bullseye$"
+          version: ^8.0
         - <<: *tagBase
           pattern: "^8.0+\\-apache\\-buster$"
           version: ^8.0
