@@ -1,4 +1,4 @@
-last_updated_at: 2022-12-09T00:17:29.601231151Z
+last_updated_at: 2022-12-09T02:12:06.029267013Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -15,6 +15,78 @@ images:
     provider: dockerhub
     image: library/php
     tags:
+    - pattern: ^8.2.[0-9]+\-cli\-bullseye$
+      version: ^8.2.0
+      resolved: 8.2.0-cli-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:35:39.679965Z
+    - pattern: ^8.2\-cli\-bullseye$
+      version: ^8.2
+      resolved: 8.2-cli-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:32:20.870832Z
+    - pattern: ^8.2.[0-9]+\-cli\-buster$
+      version: ^8.2.0
+      resolved: 8.2.0-cli-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:35:43.53995Z
+    - pattern: ^8.2\-cli\-buster$
+      version: ^8.2
+      resolved: 8.2-cli-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:32:25.186218Z
+    - pattern: ^8.2.[0-9]+\-apache\-bullseye$
+      version: ^8.2.0
+      resolved: 8.2.0-apache-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:34:58.635778Z
+    - pattern: ^8.2\-apache\-bullseye$
+      version: ^8.2
+      resolved: 8.2-apache-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:31:12.855081Z
+    - pattern: ^8.2.[0-9]+\-apache\-buster$
+      version: ^8.2.0
+      resolved: 8.2.0-apache-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:35:02.303835Z
+    - pattern: ^8.2\-apache\-buster$
+      version: ^8.2
+      resolved: 8.2-apache-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:31:28.741357Z
+    - pattern: ^8.2.[0-9]+\-fpm\-bullseye$
+      version: ^8.2.0
+      resolved: 8.2.0-fpm-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:36:19.825752Z
+    - pattern: ^8.2\-fpm\-bullseye$
+      version: ^8.2
+      resolved: 8.2-fpm-bullseye
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:33:16.21966Z
+    - pattern: ^8.2.[0-9]+\-fpm\-buster$
+      version: ^8.2.0
+      resolved: 8.2.0-fpm-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:36:24.19923Z
+    - pattern: ^8.2\-fpm\-buster$
+      version: ^8.2
+      resolved: 8.2-fpm-buster
+      os: linux
+      architecture: amd64
+      last_updated_at: 2022-12-08T20:33:28.479935Z
     - pattern: ^8.1.[0-9]+\-cli\-bullseye$
       version: ^8.1.0
       resolved: 8.1.13-cli-bullseye
