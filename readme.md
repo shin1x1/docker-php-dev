@@ -24,6 +24,8 @@ https://hub.docker.com/r/shin1x1/php-dev
 * 8.0.x
 * 8.1
 * 8.1.x
+* 8.2
+* 8.2.x
 
 ## Enabled extensions
 
