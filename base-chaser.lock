@@ -1,4 +1,4 @@
-last_updated_at: 2023-08-05T00:15:33.480867363Z
+last_updated_at: 2023-08-05T00:16:20.194520029Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -122,7 +122,7 @@ images:
       resolved: 8.1-apache-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-08-04T23:43:55.852267Z
+      last_updated_at: 2023-08-05T00:15:18.215793Z
     - pattern: ^8.1.[0-9]+\-apache\-buster$
       version: ^8.1.0
       resolved: 8.1.20-apache-buster
