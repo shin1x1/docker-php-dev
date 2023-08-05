@@ -1,4 +1,4 @@
-last_updated_at: 2023-07-30T00:18:02.475016425Z
+last_updated_at: 2023-08-05T00:15:33.480867363Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -89,16 +89,16 @@ images:
       last_updated_at: 2023-06-13T19:32:54.540154Z
     - pattern: ^8.1.[0-9]+\-cli\-bullseye$
       version: ^8.1.0
-      resolved: 8.1.21-cli-bullseye
+      resolved: 8.1.22-cli-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-07-29T18:16:07.76363Z
+      last_updated_at: 2023-08-04T23:50:39.019354Z
     - pattern: ^8.1\-cli\-bullseye$
       version: ^8.1
       resolved: 8.1-cli-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-07-29T18:09:49.467618Z
+      last_updated_at: 2023-08-04T23:45:09.254731Z
     - pattern: ^8.1.[0-9]+\-cli\-buster$
       version: ^8.1.0
       resolved: 8.1.20-cli-buster
@@ -113,16 +113,16 @@ images:
       last_updated_at: 2023-06-13T19:28:23.452502Z
     - pattern: ^8.1.[0-9]+\-apache\-bullseye$
       version: ^8.1.0
-      resolved: 8.1.21-apache-bullseye
+      resolved: 8.1.22-apache-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-07-29T18:15:28.044329Z
+      last_updated_at: 2023-08-04T23:49:50.576734Z
     - pattern: ^8.1\-apache\-bullseye$
       version: ^8.1
       resolved: 8.1-apache-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-07-29T18:09:00.893177Z
+      last_updated_at: 2023-08-04T23:43:55.852267Z
     - pattern: ^8.1.[0-9]+\-apache\-buster$
       version: ^8.1.0
       resolved: 8.1.20-apache-buster
@@ -137,16 +137,16 @@ images:
       last_updated_at: 2023-06-13T19:27:39.781048Z
     - pattern: ^8.1.[0-9]+\-fpm\-bullseye$
       version: ^8.1.0
-      resolved: 8.1.21-fpm-bullseye
+      resolved: 8.1.22-fpm-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-07-29T18:16:49.623711Z
+      last_updated_at: 2023-08-04T23:51:15.73771Z
     - pattern: ^8.1\-fpm\-bullseye$
       version: ^8.1
       resolved: 8.1-fpm-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-07-29T18:10:34.231311Z
+      last_updated_at: 2023-08-04T23:47:13.936697Z
     - pattern: ^8.1.[0-9]+\-fpm\-buster$
       version: ^8.1.0
       resolved: 8.1.20-fpm-buster
