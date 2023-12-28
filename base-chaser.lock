@@ -1,4 +1,4 @@
-last_updated_at: 2023-12-25T00:54:33.501464773Z
+last_updated_at: 2023-12-28T00:15:14.528003393Z
 images:
 - template:
     src: Dockerfile.tpl
@@ -26,7 +26,7 @@ images:
       resolved: 8.3-cli-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T09:02:25.336696Z
+      last_updated_at: 2023-12-28T00:13:24.935926Z
     - pattern: ^8.3.[0-9]+\-cli\-bookworm$
       version: ^8.3.0
       resolved: 8.3.0-cli-bookworm
@@ -38,7 +38,7 @@ images:
       resolved: 8.3-cli-bookworm
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T09:02:20.26592Z
+      last_updated_at: 2023-12-28T00:13:19.413155Z
     - pattern: ^8.3.[0-9]+\-apache\-bullseye$
       version: ^8.3.0
       resolved: 8.3.0-apache-bullseye
@@ -50,7 +50,7 @@ images:
       resolved: 8.3-apache-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T09:01:51.760491Z
+      last_updated_at: 2023-12-28T00:12:38.249165Z
     - pattern: ^8.3.[0-9]+\-apache\-bookworm$
       version: ^8.3.0
       resolved: 8.3.0-apache-bookworm
@@ -62,7 +62,7 @@ images:
       resolved: 8.3-apache-bookworm
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T09:01:45.447267Z
+      last_updated_at: 2023-12-28T00:12:31.951575Z
     - pattern: ^8.3.[0-9]+\-fpm\-bullseye$
       version: ^8.3.0
       resolved: 8.3.0-fpm-bullseye
@@ -74,7 +74,7 @@ images:
       resolved: 8.3-fpm-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T09:02:48.450446Z
+      last_updated_at: 2023-12-28T00:14:00.098046Z
     - pattern: ^8.3.[0-9]+\-fpm\-bookworm$
       version: ^8.3.0
       resolved: 8.3.0-fpm-bookworm
@@ -86,7 +86,7 @@ images:
       resolved: 8.3-fpm-bookworm
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T09:02:42.353289Z
+      last_updated_at: 2023-12-28T00:13:54.096982Z
     - pattern: ^8.2.[0-9]+\-cli\-bullseye$
       version: ^8.2.0
       resolved: 8.2.13-cli-bullseye
@@ -98,7 +98,7 @@ images:
       resolved: 8.2-cli-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:53:05.32634Z
+      last_updated_at: 2023-12-28T00:07:51.613237Z
     - pattern: ^8.2.[0-9]+\-cli\-buster$
       version: ^8.2.0
       resolved: 8.2.7-cli-buster
@@ -122,7 +122,7 @@ images:
       resolved: 8.2-apache-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:52:19.357379Z
+      last_updated_at: 2023-12-28T00:06:51.527726Z
     - pattern: ^8.2.[0-9]+\-apache\-buster$
       version: ^8.2.0
       resolved: 8.2.7-apache-buster
@@ -146,7 +146,7 @@ images:
       resolved: 8.2-fpm-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:53:48.842765Z
+      last_updated_at: 2023-12-28T00:08:58.787541Z
     - pattern: ^8.2.[0-9]+\-fpm\-buster$
       version: ^8.2.0
       resolved: 8.2.7-fpm-buster
@@ -170,7 +170,7 @@ images:
       resolved: 8.1-cli-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:43:33.870569Z
+      last_updated_at: 2023-12-28T00:01:13.568708Z
     - pattern: ^8.1.[0-9]+\-cli\-buster$
       version: ^8.1.0
       resolved: 8.1.20-cli-buster
@@ -194,7 +194,7 @@ images:
       resolved: 8.1-apache-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:42:50.912104Z
+      last_updated_at: 2023-12-27T23:59:57.471145Z
     - pattern: ^8.1.[0-9]+\-apache\-buster$
       version: ^8.1.0
       resolved: 8.1.20-apache-buster
@@ -218,7 +218,7 @@ images:
       resolved: 8.1-fpm-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:44:11.372625Z
+      last_updated_at: 2023-12-28T00:02:22.818526Z
     - pattern: ^8.1.[0-9]+\-fpm\-buster$
       version: ^8.1.0
       resolved: 8.1.20-fpm-buster
@@ -380,7 +380,7 @@ images:
       resolved: 8-cli-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:40:32.853163Z
+      last_updated_at: 2023-12-27T23:56:27.492594Z
     - pattern: ^7\-cli\-bullseye$
       version: "7"
       resolved: 7-cli-bullseye
@@ -404,7 +404,7 @@ images:
       resolved: 8-apache-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:39:45.441155Z
+      last_updated_at: 2023-12-27T23:55:34.400374Z
     - pattern: ^7\-apache\-bullseye$
       version: "7"
       resolved: 7-apache-bullseye
@@ -428,7 +428,7 @@ images:
       resolved: 8-fpm-bullseye
       os: linux
       architecture: amd64
-      last_updated_at: 2023-12-20T08:41:16.668595Z
+      last_updated_at: 2023-12-27T23:57:32.676993Z
     - pattern: ^7\-fpm\-bullseye$
       version: "7"
       resolved: 7-fpm-bullseye
