@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
       netcat-openbsd \
     && rm -r /var/lib/apt/lists/* \
     && docker-php-ext-configure \
-{{- if or (or (matchVersion "^7.4" .Tag) (matchVersion "^8" .Tag)) (eq "7" .Version)  }}
+{{- if or (or (matchSemVer "^7.4" .Tag) (matchSemVer "^8" .Tag)) (eq "7" .Version)  }}
       gd --with-jpeg \
 {{- else }}
       gd --with-jpeg-dir=/usr/include \
@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
       exif \
       gd \
       zip \
-{{- if matchVersion "^8.4" .Tag }}
+{{- if matchSemVer "^8.4" .Tag }}
     && pecl install redis \
     && docker-php-ext-enable redis \
     && curl -L --output /usr/local/bin/pie https://github.com/php/pie/releases/latest/download/pie.phar \
