@@ -1,4 +1,4 @@
-last_updated_at: 2025-07-23T00:27:05.916704276Z
+last_updated_at: 2025-07-24T00:25:19.285440139Z
 images:
     - template:
         src: Dockerfile.tpl
@@ -116,13 +116,13 @@ images:
               resolved: 8.3.23-apache-bullseye
               os: linux
               architecture: amd64
-              last_updated_at: 2025-07-22T08:02:18.38233Z
+              last_updated_at: 2025-07-23T19:58:20.119071Z
             - pattern: ^8.3\-apache\-bullseye$
               version: ^8.3
               resolved: 8.3-apache-bullseye
               os: linux
               architecture: amd64
-              last_updated_at: 2025-07-22T08:00:49.781028Z
+              last_updated_at: 2025-07-23T19:57:09.917674Z
             - pattern: ^8.3.[0-9]+\-apache\-bookworm$
               version: ^8.3.0
               resolved: 8.3.23-apache-bookworm
