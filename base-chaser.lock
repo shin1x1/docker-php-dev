@@ -1,4 +1,4 @@
-last_updated_at: 2025-11-05T00:23:34.90815377Z
+last_updated_at: 2025-11-19T00:24:20.90533281Z
 images:
     - template:
         src: Dockerfile.tpl
@@ -32,13 +32,13 @@ images:
               resolved: 8.4.14-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:12:28.418335Z
+              last_updated_at: 2025-11-18T06:27:18.78165Z
             - pattern: ^8.4\-cli\-bookworm$
               version: ^8.4
               resolved: 8.4-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:11:25.385048Z
+              last_updated_at: 2025-11-18T06:22:00.958483Z
             - pattern: ^8.4.[0-9]+\-apache\-bullseye$
               version: ^8.4.0
               resolved: 8.4.11-apache-bullseye
@@ -56,13 +56,13 @@ images:
               resolved: 8.4.14-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:12:12.027043Z
+              last_updated_at: 2025-11-18T06:27:02.963554Z
             - pattern: ^8.4\-apache\-bookworm$
               version: ^8.4
               resolved: 8.4-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:11:08.397884Z
+              last_updated_at: 2025-11-18T06:21:39.543748Z
             - pattern: ^8.4.[0-9]+\-fpm\-bullseye$
               version: ^8.4.0
               resolved: 8.4.11-fpm-bullseye
@@ -80,13 +80,13 @@ images:
               resolved: 8.4.14-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:12:42.72778Z
+              last_updated_at: 2025-11-18T09:02:51.88706Z
             - pattern: ^8.4\-fpm\-bookworm$
               version: ^8.4
               resolved: 8.4-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:11:39.373934Z
+              last_updated_at: 2025-11-18T09:01:36.364355Z
             - pattern: ^8.3.[0-9]+\-cli\-bullseye$
               version: ^8.3.0
               resolved: 8.3.24-cli-bullseye
@@ -104,13 +104,13 @@ images:
               resolved: 8.3.27-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:10:13.310159Z
+              last_updated_at: 2025-11-18T08:59:29.848718Z
             - pattern: ^8.3\-cli\-bookworm$
               version: ^8.3
               resolved: 8.3-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:07:59.206117Z
+              last_updated_at: 2025-11-18T08:57:44.828596Z
             - pattern: ^8.3.[0-9]+\-apache\-bullseye$
               version: ^8.3.0
               resolved: 8.3.24-apache-bullseye
@@ -128,13 +128,13 @@ images:
               resolved: 8.3.27-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:09:56.031454Z
+              last_updated_at: 2025-11-18T12:01:30.260812Z
             - pattern: ^8.3\-apache\-bookworm$
               version: ^8.3
               resolved: 8.3-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:07:21.371699Z
+              last_updated_at: 2025-11-18T11:59:14.486727Z
             - pattern: ^8.3.[0-9]+\-fpm\-bullseye$
               version: ^8.3.0
               resolved: 8.3.24-fpm-bullseye
@@ -152,13 +152,13 @@ images:
               resolved: 8.3.27-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:10:28.11443Z
+              last_updated_at: 2025-11-18T12:01:47.154272Z
             - pattern: ^8.3\-fpm\-bookworm$
               version: ^8.3
               resolved: 8.3-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-04T12:08:46.544238Z
+              last_updated_at: 2025-11-18T11:59:36.001014Z
             - pattern: ^8.2.[0-9]+\-cli\-bullseye$
               version: ^8.2.0
               resolved: 8.2.29-cli-bullseye
