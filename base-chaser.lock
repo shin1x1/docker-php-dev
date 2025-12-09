@@ -1,4 +1,4 @@
-last_updated_at: 2025-12-09T00:24:29.232749094Z
+last_updated_at: 2025-12-09T00:25:01.605305101Z
 images:
     - template:
         src: Dockerfile.tpl
@@ -56,7 +56,7 @@ images:
               resolved: 8.4.15-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2025-11-21T00:07:03.944843Z
+              last_updated_at: 2025-12-09T00:24:27.43253Z
             - pattern: ^8.4\-apache\-bookworm$
               version: ^8.4
               resolved: 8.4-apache-bookworm
