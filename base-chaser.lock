@@ -1,4 +1,4 @@
-last_updated_at: 2025-12-10T00:25:32.80471216Z
+last_updated_at: 2025-12-13T03:01:13.914530549Z
 images:
     - template:
         src: Dockerfile.tpl
@@ -15,6 +15,78 @@ images:
         provider: dockerhub
         image: library/php
         tags:
+            - pattern: ^8.5.[0-9]+\-cli\-bookworm$
+              version: ^8.5.0
+              resolved: 8.5.0-cli-bookworm
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:09:07.331323Z
+            - pattern: ^8.5\-cli\-bookworm$
+              version: ^8.5
+              resolved: 8.5-cli-bookworm
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:06:53.006848Z
+            - pattern: ^8.5.[0-9]+\-cli\-trixie$
+              version: ^8.5.0
+              resolved: 8.5.0-cli-trixie
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:09:10.383822Z
+            - pattern: ^8.5\-cli\-trixie$
+              version: ^8.5
+              resolved: 8.5-cli-trixie
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:06:56.13499Z
+            - pattern: ^8.5.[0-9]+\-apache\-bookworm$
+              version: ^8.5.0
+              resolved: 8.5.0-apache-bookworm
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:08:52.315387Z
+            - pattern: ^8.5\-apache\-bookworm$
+              version: ^8.5
+              resolved: 8.5-apache-bookworm
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:06:38.885073Z
+            - pattern: ^8.5.[0-9]+\-apache\-trixie$
+              version: ^8.5.0
+              resolved: 8.5.0-apache-trixie
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T18:04:30.33425Z
+            - pattern: ^8.5\-apache\-trixie$
+              version: ^8.5
+              resolved: 8.5-apache-trixie
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T18:03:06.297525Z
+            - pattern: ^8.5.[0-9]+\-fpm\-bookworm$
+              version: ^8.5.0
+              resolved: 8.5.0-fpm-bookworm
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:09:19.391869Z
+            - pattern: ^8.5\-fpm\-bookworm$
+              version: ^8.5
+              resolved: 8.5-fpm-bookworm
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T15:07:04.62025Z
+            - pattern: ^8.5.[0-9]+\-fpm\-trixie$
+              version: ^8.5.0
+              resolved: 8.5.0-fpm-trixie
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T18:04:49.940537Z
+            - pattern: ^8.5\-fpm\-trixie$
+              version: ^8.5
+              resolved: 8.5-fpm-trixie
+              os: linux
+              architecture: amd64
+              last_updated_at: 2025-12-09T18:03:26.54576Z
             - pattern: ^8.4.[0-9]+\-cli\-bullseye$
               version: ^8.4.0
               resolved: 8.4.11-cli-bullseye
