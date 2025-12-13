@@ -21,6 +21,42 @@ images:
       image: library/php
       tags:
         - <<: *tagBase
+          pattern: "^8.5.[0-9]+\\-cli\\-bookworm$"
+          version: ^8.5.0
+        - <<: *tagBase
+          pattern: "^8.5\\-cli\\-bookworm$"
+          version: ^8.5
+        - <<: *tagBase
+          pattern: "^8.5.[0-9]+\\-cli\\-trixie$"
+          version: ^8.5.0
+        - <<: *tagBase
+          pattern: "^8.5\\-cli\\-trixie$"
+          version: ^8.5
+        - <<: *tagBase
+          pattern: "^8.5.[0-9]+\\-apache\\-bookworm$"
+          version: ^8.5.0
+        - <<: *tagBase
+          pattern: "^8.5\\-apache\\-bookworm$"
+          version: ^8.5
+        - <<: *tagBase
+          pattern: "^8.5.[0-9]+\\-apache\\-trixie$"
+          version: ^8.5.0
+        - <<: *tagBase
+          pattern: "^8.5\\-apache\\-trixie$"
+          version: ^8.5
+        - <<: *tagBase
+          pattern: "^8.5.[0-9]+\\-fpm\\-bookworm$"
+          version: ^8.5.0
+        - <<: *tagBase
+          pattern: "^8.5\\-fpm\\-bookworm$"
+          version: ^8.5
+        - <<: *tagBase
+          pattern: "^8.5.[0-9]+\\-fpm\\-trixie$"
+          version: ^8.5.0
+        - <<: *tagBase
+          pattern: "^8.5\\-fpm\\-trixie$"
+          version: ^8.5
+        - <<: *tagBase
           pattern: "^8.4.[0-9]+\\-cli\\-bullseye$"
           version: ^8.4.0
         - <<: *tagBase

@@ -21,16 +21,18 @@ RUN apt-get update && apt-get install -y \
       pdo_pgsql \
       pdo_mysql \
       pgsql \
+{{- if matchSemVer "<8.5.0" .Tag }}
       opcache \
+{{- end }}
       exif \
       gd \
       zip \
-{{- if matchSemVer "^8.4" .Tag }}
+{{- if matchSemVer ">=8.4.0" .Tag }}
     && pecl install redis \
     && docker-php-ext-enable redis \
     && curl -L --output /usr/local/bin/pie https://github.com/php/pie/releases/latest/download/pie.phar \
     && chmod +x /usr/local/bin/pie \
-    && pie install xdebug/xdebug:3.4.0beta1 \
+    && pie install xdebug/xdebug:3.5 \
     && docker-php-ext-enable xdebug
 {{- else }}
     && pecl install xdebug redis \
