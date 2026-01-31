@@ -1,4 +1,4 @@
-last_updated_at: 2026-01-18T00:28:07.671639503Z
+last_updated_at: 2026-01-31T00:28:48.983597282Z
 images:
     - template:
         src: Dockerfile.tpl
@@ -68,25 +68,25 @@ images:
               resolved: 8.5.2-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T05:59:03.129206Z
+              last_updated_at: 2026-01-30T03:23:13.573923Z
             - pattern: ^8.5\-fpm\-bookworm$
               version: ^8.5
               resolved: 8.5-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T05:58:30.420402Z
+              last_updated_at: 2026-01-30T03:15:20.398786Z
             - pattern: ^8.5.[0-9]+\-fpm\-trixie$
               version: ^8.5.0
               resolved: 8.5.2-fpm-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T20:59:32.185982Z
+              last_updated_at: 2026-01-30T03:23:16.810857Z
             - pattern: ^8.5\-fpm\-trixie$
               version: ^8.5
               resolved: 8.5-fpm-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T20:58:49.080104Z
+              last_updated_at: 2026-01-30T03:15:23.361095Z
             - pattern: ^8.4.[0-9]+\-cli\-bullseye$
               version: ^8.4.0
               resolved: 8.4.11-cli-bullseye
@@ -152,13 +152,13 @@ images:
               resolved: 8.4.17-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T03:02:06.842942Z
+              last_updated_at: 2026-01-30T06:01:27.849375Z
             - pattern: ^8.4\-fpm\-bookworm$
               version: ^8.4
               resolved: 8.4-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T03:01:30.320861Z
+              last_updated_at: 2026-01-30T05:58:26.595225Z
             - pattern: ^8.3.[0-9]+\-cli\-bullseye$
               version: ^8.3.0
               resolved: 8.3.24-cli-bullseye
@@ -224,13 +224,13 @@ images:
               resolved: 8.3.30-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T02:59:49.634357Z
+              last_updated_at: 2026-01-30T05:57:31.269849Z
             - pattern: ^8.3\-fpm\-bookworm$
               version: ^8.3
               resolved: 8.3-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-01-17T02:58:06.578015Z
+              last_updated_at: 2026-01-30T05:56:44.954571Z
             - pattern: ^8.2.[0-9]+\-cli\-bullseye$
               version: ^8.2.0
               resolved: 8.2.29-cli-bullseye
