@@ -1,4 +1,4 @@
-last_updated_at: 2026-05-09T00:47:09.994016899Z
+last_updated_at: 2026-05-10T00:50:39.828411156Z
 images:
     - template:
         src: Dockerfile.tpl
@@ -20,73 +20,73 @@ images:
               resolved: 8.5.6-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:06:18.553135Z
+              last_updated_at: 2026-05-09T01:17:22.655566Z
             - pattern: ^8.5\-cli\-bookworm$
               version: ^8.5
               resolved: 8.5-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:05:14.101276Z
+              last_updated_at: 2026-05-09T01:15:55.598581Z
             - pattern: ^8.5.[0-9]+\-cli\-trixie$
               version: ^8.5.0
               resolved: 8.5.6-cli-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:06:21.292857Z
+              last_updated_at: 2026-05-09T01:17:25.496063Z
             - pattern: ^8.5\-cli\-trixie$
               version: ^8.5
               resolved: 8.5-cli-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:05:17.004719Z
+              last_updated_at: 2026-05-09T01:15:58.603732Z
             - pattern: ^8.5.[0-9]+\-apache\-bookworm$
               version: ^8.5.0
               resolved: 8.5.6-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:06:00.361286Z
+              last_updated_at: 2026-05-09T01:17:01.223818Z
             - pattern: ^8.5\-apache\-bookworm$
               version: ^8.5
               resolved: 8.5-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:04:57.757636Z
+              last_updated_at: 2026-05-09T01:15:33.929595Z
             - pattern: ^8.5.[0-9]+\-apache\-trixie$
               version: ^8.5.0
               resolved: 8.5.6-apache-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:06:03.440895Z
+              last_updated_at: 2026-05-09T01:17:04.302906Z
             - pattern: ^8.5\-apache\-trixie$
               version: ^8.5
               resolved: 8.5-apache-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:05:01.059536Z
+              last_updated_at: 2026-05-09T01:15:36.940104Z
             - pattern: ^8.5.[0-9]+\-fpm\-bookworm$
               version: ^8.5.0
               resolved: 8.5.6-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:06:36.012397Z
+              last_updated_at: 2026-05-09T01:17:42.753527Z
             - pattern: ^8.5\-fpm\-bookworm$
               version: ^8.5
               resolved: 8.5-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:05:27.143859Z
+              last_updated_at: 2026-05-09T01:16:14.303737Z
             - pattern: ^8.5.[0-9]+\-fpm\-trixie$
               version: ^8.5.0
               resolved: 8.5.6-fpm-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:06:39.115047Z
+              last_updated_at: 2026-05-09T01:17:46.088215Z
             - pattern: ^8.5\-fpm\-trixie$
               version: ^8.5
               resolved: 8.5-fpm-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:05:30.187031Z
+              last_updated_at: 2026-05-09T01:16:17.392351Z
             - pattern: ^8.4.[0-9]+\-cli\-bullseye$
               version: ^8.4.0
               resolved: 8.4.11-cli-bullseye
@@ -104,13 +104,13 @@ images:
               resolved: 8.4.21-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:04:12.226142Z
+              last_updated_at: 2026-05-09T01:14:42.418503Z
             - pattern: ^8.4\-cli\-bookworm$
               version: ^8.4
               resolved: 8.4-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:02:53.503405Z
+              last_updated_at: 2026-05-09T01:12:08.510684Z
             - pattern: ^8.4.[0-9]+\-apache\-bullseye$
               version: ^8.4.0
               resolved: 8.4.11-apache-bullseye
@@ -128,13 +128,13 @@ images:
               resolved: 8.4.21-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:03:56.126587Z
+              last_updated_at: 2026-05-09T01:14:26.327967Z
             - pattern: ^8.4\-apache\-bookworm$
               version: ^8.4
               resolved: 8.4-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:02:29.926922Z
+              last_updated_at: 2026-05-09T01:11:33.00233Z
             - pattern: ^8.4.[0-9]+\-fpm\-bullseye$
               version: ^8.4.0
               resolved: 8.4.11-fpm-bullseye
@@ -152,13 +152,13 @@ images:
               resolved: 8.4.21-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:04:25.695101Z
+              last_updated_at: 2026-05-09T01:14:55.661698Z
             - pattern: ^8.4\-fpm\-bookworm$
               version: ^8.4
               resolved: 8.4-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:03:14.938637Z
+              last_updated_at: 2026-05-09T01:13:06.322308Z
             - pattern: ^8.3.[0-9]+\-cli\-bullseye$
               version: ^8.3.0
               resolved: 8.3.24-cli-bullseye
@@ -176,13 +176,13 @@ images:
               resolved: 8.3.31-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:01:30.933496Z
+              last_updated_at: 2026-05-09T01:09:29.374581Z
             - pattern: ^8.3\-cli\-bookworm$
               version: ^8.3
               resolved: 8.3-cli-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T21:59:36.623456Z
+              last_updated_at: 2026-05-09T01:06:45.05811Z
             - pattern: ^8.3.[0-9]+\-apache\-bullseye$
               version: ^8.3.0
               resolved: 8.3.24-apache-bullseye
@@ -200,13 +200,13 @@ images:
               resolved: 8.3.31-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:01:09.004011Z
+              last_updated_at: 2026-05-09T01:09:13.065496Z
             - pattern: ^8.3\-apache\-bookworm$
               version: ^8.3
               resolved: 8.3-apache-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T21:59:15.154055Z
+              last_updated_at: 2026-05-09T01:06:03.654244Z
             - pattern: ^8.3.[0-9]+\-fpm\-bullseye$
               version: ^8.3.0
               resolved: 8.3.24-fpm-bullseye
@@ -224,13 +224,13 @@ images:
               resolved: 8.3.31-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T22:01:44.193843Z
+              last_updated_at: 2026-05-09T01:09:42.999533Z
             - pattern: ^8.3\-fpm\-bookworm$
               version: ^8.3
               resolved: 8.3-fpm-bookworm
               os: linux
               architecture: amd64
-              last_updated_at: 2026-05-08T21:59:58.357677Z
+              last_updated_at: 2026-05-09T01:07:46.823014Z
             - pattern: ^8.2.[0-9]+\-cli\-bullseye$
               version: ^8.2.0
               resolved: 8.2.29-cli-bullseye
