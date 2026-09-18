@@ -1,4 +1,4 @@
-last_updated_at: 2026-09-17T00:34:40.01658874Z
+last_updated_at: 2026-09-18T00:33:27.132621397Z
 images:
     - template:
         src: Dockerfile.tpl
@@ -32,13 +32,13 @@ images:
               resolved: 8.5.10-cli-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-09-16T01:30:16.255965Z
+              last_updated_at: 2026-09-17T22:00:15.240835Z
             - pattern: ^8.5\-cli\-trixie$
               version: ^8.5
               resolved: 8.5-cli-trixie
               os: linux
               architecture: amd64
-              last_updated_at: 2026-09-16T01:28:57.707819Z
+              last_updated_at: 2026-09-17T21:59:30.306877Z
             - pattern: ^8.5.[0-9]+\-apache\-bookworm$
               version: ^8.5.0
               resolved: 8.5.10-apache-bookworm
